@@ -1,12 +1,10 @@
-package com.example.loginapp.activities
+package com.example.loginapp.presentation.ui
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.loginapp.R
 import android.content.Intent
 import android.widget.Button
-import android.content.SharedPreferences
-import com.example.loginapp.MainActivity
 
 class HomeActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

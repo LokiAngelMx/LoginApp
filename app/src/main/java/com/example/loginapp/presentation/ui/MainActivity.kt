@@ -1,14 +1,13 @@
-package com.example.loginapp
+package com.example.loginapp.presentation.ui
 
 import android.content.Intent
-import android.content.SharedPreferences
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import android.widget.EditText
-import com.example.loginapp.activities.HomeActivity
-import com.example.loginapp.mockdata.MockData
+import com.example.loginapp.R
+import com.example.loginapp.data.mockdata.MockData
 import com.google.android.material.snackbar.Snackbar
 
 class MainActivity : AppCompatActivity() {
